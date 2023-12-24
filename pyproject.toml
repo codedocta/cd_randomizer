@@ -1,6 +1,6 @@
 
 [build-system]
-requires = ["setuptools>=40.6.0", "wheel"]
+requires = ["setuptools>=42", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -10,7 +10,7 @@ description = "A simple CD randomizer package."
 authors = [
     {name = "Nicholas Capasso", email = "codedocta@gmail.com"}
 ]
-license = "MIT"
+license = { file = "LICENSE.txt" }
 readme = "README.md"
 requires-python = ">=3.6"
 classifiers = [
